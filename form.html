@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="back.php" method="post">
+<label for="">user name</label>
+<input placeholder="name" required type="text"><br><br>
+<label for= "">email</label>
+<input value="email@gmail.com" required type="email"><br><br>
+<!-- <label for= "">password</label><input min="8" autocapitalize="1" type="password"><br><br>
+<input type="submit" value="submit">
+<input type="reset" value="reset"> -->
+<label for="">gender</label><br><br>
+<input checked type="radio" name="h" id="12"><label for= "12">femall</label>
+<input type="radio" name="h" id="10"><label for= "10">mall</label><br><br>
+<label for="">interest</label><br><br>
+<input type="checkbox">
+<label for= "">volenter</label>
+<input type="checkbox">
+<label for= "">sing</label>
+<input checked type="checkbox">
+<label for= "">swim</label><br><br>
+<input type="submit" value="submit"><br><br>
+<label for= "">choose course</label><br>
+ <select id="program" name="program" size="2" multiple>
+    <option value="front">front</option>
+    <option value="back">back</option>
+    <option value="UI\UX">UI\UX</option>
+    <option value="full stack">full stack</option>
+  </select><br><br><br><br><br><br>
+</form>
+<form action="php" method="post">
+    <label for="">full name</label>
+<input placeholder="name" required type="text" autocomplete="off"><br><br>
+<label for= "">email</label>
+<input  required value="email@gmail.com"  type="email"><br><br>
+<label for= "">password</label><input required min="8" autocapitalize="1" type="password"><br><br>
+<label for= "">repassword</label><input required min="8" autocapitalize="1" type="password"><br><br>
+<label for= "">birthday</label>
+<input required placeholder="1\1\2000"  type="date"><br><br>
+<label for="">gender</label><br><br>
+<input checked type="radio" name="h" id="12"><label for= "12">femall</label>
+<input type="radio" name="h" id="10"><label for= "10">mall</label><br><br>
+<label for= "">choose gender</label><br>
+ <select id="gender" name="gender" size="2" multiple>
+    <option value="mall">mall</option>
+    <option value="femall">femall</option>
+    <option value="not share">not share</option>
+    <input type="submit" value="submit"><br><br>
+  </select>
+  <label for="w3review">Review of W3Schools:</label>
+
+<textarea id="w3review" name="w3review" rows="4" cols="50">
+At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+</textarea>
+<input type="submit" pattern="" value="submit"><br><br>
+</form>
+</body>
+</html>
